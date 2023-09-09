@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  retroarch:
+    container_name: retroarch
+    image: inglebard/retroarch-web
+    ports:
+      - 8080:80
